@@ -56,7 +56,7 @@ Still demonstrates real-world ML pipeline
 Project Structure:
 support-ticket-classification
 ├── tickets.py
-├── tickets.csv
+├── customer_support_tickets.csv
 ├── README.md
 
 How to Run:
