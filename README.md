@@ -1,6 +1,6 @@
-SUPPORT TICKET CLASSIFICATION & PRIORITISATION 
+# SUPPORT TICKET CLASSIFICATION & PRIORITISATION 
 
-Project Overview:
+## Project Overview:
 Customer support teams receive a large number of tickets daily. Manually categorizing 
 and prioritizing them is time-consuming and inefficient.
 
@@ -8,20 +8,20 @@ This project uses Machine Learning (NLP) to automatically:
 - Classify support tickets into categories
 - Assign priority levels (Critical / High / Medium / Low)
 
-Objective:
+## Objective:
 Build an ML system that:
 - Reads ticket text
 - Predicts **category** (Billing, Technical Issue, etc.)
 - Predicts **priority** (Critical, High, Medium, Low)
 
-Tech Stack:
+## Tech Stack:
 - Python
 - Pandas
 - Scikit-learn
 - TF-IDF (Text Vectorization)
 - Logistic Regression
 
- Workflow:
+## Workflow:
 1. Data Loading
 2. Text Preprocessing (cleaning text)
 3. Feature Extraction using TF-IDF
@@ -29,7 +29,7 @@ Tech Stack:
 5. Model Evaluation
 6. Prediction System
 
-Model Results:
+## Model Results:
 
 🔹 Accuracy
 - Category Accuracy: 0.20
@@ -56,23 +56,23 @@ Input: Need refund for my purchase
 Predicted Category: Refund request
 Predicted Priority: Low
 
-Model Analysis:
+## Model Analysis:
 
 Model works correctly for classification and prioritization
 Accuracy is moderate due to repetitive dataset
 Many tickets have similar wording
 Still demonstrates real-world ML pipeline
 
-Project Structure:
+## Project Structure:
 support-ticket-classification
 ├── tickets.py
 ├── customer_support_tickets.csv
 ├── README.md
 
-How to Run:
+## How to Run:
 pip install pandas scikit-learn
 python tickets.py
 
-Conclusion:
+## Conclusion:
 This project demonstrates how Machine Learning can automate support ticket classification 
 and prioritization in real-world systems.
