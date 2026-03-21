@@ -36,16 +36,25 @@ Model Results:
 - Priority Accuracy: 0.26
   
 🔹 Sample Predictions
-Input: My payment failed and money got deducted.
-Category: Product inquiry Priority: Medium
+Input: My payment failed and money got deducted
+Predicted Category: Product inquiry
+Predicted Priority: Medium
+
 Input: Unable to login to my account
- Category: Technical issue Priority: Medium
+Predicted Category: Technical issue
+Predicted Priority: Medium
+
 Input: I want to cancel my order
-Category: Billing inquiry Priority: Critical
+Predicted Category: Billing inquiry
+Predicted Priority: Critical
+
 Input: App is not working properly
-Category: Technical issue Priority: High
+Predicted Category: Technical issue
+Predicted Priority: High
+
 Input: Need refund for my purchase
- Category: Refund request Priority: Low
+Predicted Category: Refund request
+Predicted Priority: Low
 
 Model Analysis:
 
