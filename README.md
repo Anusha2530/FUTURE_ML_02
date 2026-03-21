@@ -34,8 +34,9 @@ Model Results:
 🔹 Accuracy
 - Category Accuracy: 0.20
 - Priority Accuracy: 0.26
+  
 🔹 Sample Predictions
-Input: My payment failed and money got deducted
+Input: My payment failed and money got deducted.
 Category: Product inquiry Priority: Medium
 Input: Unable to login to my account
  Category: Technical issue Priority: Medium
